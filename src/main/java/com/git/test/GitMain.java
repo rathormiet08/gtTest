@@ -12,6 +12,7 @@ public class GitMain {
 			if ("Yes" == hungry || "y" == hungry || "Y" == hungry || "yes" == hungry) {
 				System.out.println("eat samosa");
 				System.out.println("drink pepsi");
+				System.out.println("drink pepsi again");
 			} else {
 				System.out.println("do your work");
 			}
