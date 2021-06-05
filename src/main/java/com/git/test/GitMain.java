@@ -8,12 +8,19 @@ public class GitMain {
 		Scanner sc = null;
 		try {
 			sc = new Scanner(System.in);
+			System.out.println("Are you hungry");
 			String hungry = sc.nextLine();
 			if ("Yes" == hungry || "y" == hungry || "Y" == hungry || "yes" == hungry) {
 				System.out.println("eat samosa");
-				System.out.println("drink pepsi");
+				System.out.println("eat burger ");
 			} else {
-				System.out.println("do your work");
+				sc = new Scanner(System.in);
+				System.out.println("Are you thirsty");
+				String thirsty = sc.nextLine();
+				if ("Yes" == thirsty || "yes" == thirsty) {
+				System.out.println("dring juice");
+				System.out.println("drink pepsi")
+				}
 			}
 		} catch (Exception e) {
 			e.printStackTrace();
