@@ -12,12 +12,9 @@ public class GitMain {
 			String hungry = sc.nextLine();
 			if ("Yes" == hungry || "y" == hungry || "Y" == hungry || "yes" == hungry) {
 				System.out.println("eat samosa");
-<<<<<<< HEAD
 				System.out.println("drink pepsi");
-				System.out.println("drink burger");
-=======
 				System.out.println("eat burger ");
->>>>>>> gtTest1
+
 			} else {
 				sc = new Scanner(System.in);
 				System.out.println("Are you thirsty");
