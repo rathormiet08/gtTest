@@ -11,6 +11,7 @@ public class GitMain {
 			String hungry = sc.nextLine();
 			if ("Yes" == hungry || "y" == hungry || "Y" == hungry) {
 				System.out.println("eat samosa");
+				System.out.println("drink pepsi");
 			} else {
 				System.out.println("do your work");
 			}
