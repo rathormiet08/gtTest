@@ -23,6 +23,7 @@ public class GitMain {
 				System.out.println("dring juice");
 				System.out.println("drink pepsi");
 				System.out.println("drink coke");
+				System.out.println("drink limca");
 				}
 			}
 		} catch (Exception e) {
