@@ -21,7 +21,7 @@ public class GitMain {
 				String thirsty = sc.nextLine();
 				if ("Yes" == thirsty || "yes" == thirsty) {
 				System.out.println("dring juice");
-				System.out.println("drink pepsi")
+				System.out.println("drink pepsi");
 				}
 			}
 		} catch (Exception e) {
