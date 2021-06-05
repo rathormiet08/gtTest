@@ -9,7 +9,7 @@ public class GitMain {
 		try {
 			sc = new Scanner(System.in);
 			String hungry = sc.nextLine();
-			if ("Yes" == hungry || "y" == hungry || "Y" == hungry) {
+			if ("Yes" == hungry || "y" == hungry || "Y" == hungry || "yes" == hungry) {
 				System.out.println("eat samosa");
 				System.out.println("drink pepsi");
 			} else {
